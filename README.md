@@ -48,7 +48,7 @@ Android Studio 3.5
 ```
 values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, android.text.format.DateFormat.format("yyyyMMMdd,E",System.currentTimeMillis()).toString());
 ```
-这样就ok啦~~
+这样就ok啦~~  
 ![截图](https://raw.githubusercontent.com/jiangyi666/test/master/%E5%9B%BE1.png)  
 ## 3.2增加搜索功能
 其实比较简单（。。。）像sql。。。
@@ -76,7 +76,7 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, android.text.format.Date
             MyDialogFragment dialog=new MyDialogFragment();
             dialog.show(getFragmentManager(),null);
  ```
- 这样就ok啦~~
+ 这样就ok啦~~  
 ![截图](https://raw.githubusercontent.com/jiangyi666/test/master/%E5%9B%BE2.png)  
 ![截图](https://raw.githubusercontent.com/jiangyi666/test/master/%E5%9B%BE3.png)  
 ## 4.0总结反馈
