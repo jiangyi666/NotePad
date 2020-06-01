@@ -49,7 +49,7 @@ Android Studio 3.5
 values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, android.text.format.DateFormat.format("yyyyMMMdd,E",System.currentTimeMillis()).toString());
 ```
 这样就ok啦~~  
-![截图](https://raw.githubusercontent.com/jiangyi666/test/master/%E5%9B%BE1.png)  
+![截图](https://img-blog.csdnimg.cn/20200601144402910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTA2MDkwNQ==,size_16,color_FFFFFF,t_70)  
 ## 3.2增加搜索功能
 其实比较简单（。。。）像sql。。。
 ### 3.2.在1list_options_menu.xml中添加一个item
@@ -77,8 +77,8 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, android.text.format.Date
             dialog.show(getFragmentManager(),null);
  ```
  这样就ok啦~~  
-![截图](https://raw.githubusercontent.com/jiangyi666/test/master/%E5%9B%BE2.png)  
-![截图](https://raw.githubusercontent.com/jiangyi666/test/master/%E5%9B%BE3.png)  
+![截图](https://img-blog.csdnimg.cn/20200601144410642.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTA2MDkwNQ==,size_16,color_FFFFFF,t_70)  
+![截图](https://img-blog.csdnimg.cn/20200601144422713.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTA2MDkwNQ==,size_16,color_FFFFFF,t_70)  
 ## 4.0总结反馈
 其实我的安卓这一块还是比较差，水平有待提升，后续还要继续努力  
 虽然这个期中作业可能都是一些比较简单的功能，但是，我还是写了很久~~
